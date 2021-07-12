@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color:mintcream;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+   
+}
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+.cellphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+.cellphone img{
+    height: 60rem;
+    margin: 20px;
+}
+
+
+.instagram-log {
+    display:flex;
+    align-items: center; /*horizontal*/
+    justify-content: space-around;/* vertical*/
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color:snow;
+    width: 90%;
+    padding: 2.1rem 0;
+    border: 1px solid lightgray;
+    height: 25rem;
+    border-radius: 16px;
+}
+.group:nth-child(1){
+    min-height: 18rem;
+}
+.group:nth-child(2){
+    height: 9rem;
+    margin: 10px;
+}
+.instagram-logo{
+    height: 8rem;
+    margin: -18px;
+
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.downloadapp{
+    height: 10rem;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid lightseagreen;
+    margin: 5px;;
+}
+.instal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.instagram-login{
+    background-color: lightseagreen;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+    font: bold 16px Arial;
+}
+.instagram-logout{
+    color: lightseagreen;
+    font: bold 14px Arial;
+    margin: 5px;
+    margin-bottom: 10%;
+}
+.link-blue{
+    background-color: lightseagreen;
+    color: whitesmoke;
+    padding: 8px;
+    border-radius: 4px;
+}
+.not-account{
+    font: bold 16px Arial;
+}
+.instal-app{
+    font: bold 20px Arial;
+    margin: 5px;
+}
+@media (max-width:1024px){
+    .instagram-wrapper{
+        width: 90%
+    }
+}
+@media (max-width:650px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .cellphone{
+        display:none;
+    }
+
+    .instagram-log{
+        width: 100%;
+    }
+}
